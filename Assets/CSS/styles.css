@@ -1,0 +1,102 @@
+/*..................... Navbar ....................*/
+nav{
+  background-color: #8DAA91;
+  height: 60px;
+  font-family: 'Delius';
+}
+#img{
+  width: 12%;
+  color: #946E83;
+  }
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  height: 60px;
+}
+li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+li a:hover {
+  color: #FFFFFF;
+}
+#iconBurger{
+  display: none;
+}
+@media screen and (max-width : 992px){
+  #blockLine{
+    flex-direction: column;
+  }
+  #block2{
+    margin: 1.2em 0em;
+  }
+}
+@media screen and (max-width : 680px){
+  li a, li form{
+    display: none;
+  }
+  #iconBurger{
+    display: block;
+  }
+}
+/* latin */
+@font-face {
+  font-family: 'Delius Swash Caps';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Delius Swash Caps'), local('DeliusSwashCaps-Regular'), url(https://fonts.gstatic.com/s/deliusswashcaps/v11/oY1E8fPLr7v4JWCExZpWebxVKORpXUeaIGY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*....formulaire...*/
+ul{
+  list-style-type: none;
+}
+p{
+  text-align: center;
+}
+#leftBlock{
+  background-color: #EFDEE0;
+  margin: 10px;
+  padding: 20px;
+  float: left;
+  font-family: 'Delius';
+}
+#rightBlock{
+  background-color: #EFDEE0;
+  font-family: 'Delius';
+  padding: 5em;
+}
+button{
+  background-color: #8DAA91;
+}
+.container{
+  font-family: 'Delius'
+  margin: 20px;
+  padding: 20px;
+}
+/*...footer avec les 3 blocs..*/
+footer{
+  font-family: 'Delius';
+  text-align: center;
+  background-color: #748C77;
+}
+  .images{
+    width: 80%;
+    padding: 55px;
+  }
+.address{
+  padding: 55px;
+  text-align: center;
+}
+.hoursDates{
+  padding: 55px;
+  text-align: center;
+}
+@media screen and (max-width : 992px){
+}
+@media screen and (max-width : 680px){
+}

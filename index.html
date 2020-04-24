@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <!-- Meta pour autoriser les caractères accentués -->
+  <meta charset="utf-8"/>
+  <!-- Meta viewport pour le responsive (pour la compatibilité des écrans) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Lien police  -->
+  <link href="https://fonts.googleapis.com/css?family=Delius|Delius+Swash+Caps&display=swap" rel="stylesheet"/>
+  <!-- Feuille de style -->
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <script src="https://kit.fontawesome.com/d38cea82af.js" crossorigin="anonymous"></script>
+  <!--link bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymSous"/>
+  <title>Violette & Lilas</title>
+</head>
+<!-- Barre de navigation -->
+<nav>
+  <ul>
+    <!-- Les 6 onglets -->
+    <li><img src="Assets/images/icone_instagram.png" class="img-fluid" alt="Responsive image" id="img"><a href="#" title="Lien vers la page d'Accueil" class="color">Violette & Lilas</a></li>
+    <li><a href="#" title="Lien vers la page Fleurs">Fleurs</a></li>
+    <li><a href="#" title="Lien vers la page Bouquets">Bouquets</a></li>
+    <li><a href="#" title="Lien vers la page Compositions">Compositions</a></li>
+    <li><a href="#" title="Lien vers la page Boutique">Boutique</a></li>
+    <li><a href="#" title="Lien vers la page Contact">Contact</a></li>
+    <li><i class="fas fa-bars" id="iconBurger"></i></li>
+  </ul>
+</nav>
+
+<form>
+  <!-- bloc de gauche du formulaire-->
+  <div class="container text-center" class="row">
+    <div id="leftBlock">
+      <form action="#" method="post">
+        <p>Comment nous contacter ?</p>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Nom :</label>
+            <input type="email" class="form-control" id="exampleInputEmail1">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Email :</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Sujet :</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Anniversaire</option>
+              <option>Mariage</option>
+              <option>Décès</option>
+              <option>Saint Valentin</option>
+              <option>Fête des mères</option>
+              <option>Noël</option>
+              <option>Service de livraison</option>
+              <option>Cours d'art floral</option>
+              <option>Réclamations</option>
+              <option>Autres</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message :</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button type="button" class="backgroundColor" data-toggle="button" aria-pressed="false">
+              Envoyer
+            </button>
+          </div>
+        </div>
+        <!-- bloc de droite texte du formulaire-->
+        <div id="rightBlock">
+          <p>Vous avez une question concernant la boutique, la livraison ou les cours d'art floral ?</P>
+            <p>Nous sommes là pour vous répondre.</p>
+            <p>
+              <br/>
+              <p>Vous avez une remarque ?</p>
+              <p>Nous sommes là pour l'écouter.</p>
+              <br/>
+              <p>Vous avez une suggestion ?</p>
+              <p> Nous sommes là pour la prendre en considération.</p>
+              <br/>
+              <p>Nous serons heureuses de répondre à vos messages, alors n'hésitez pas à nous contacter.</p>
+            </div>
+          </div>
+        </form>
+        <!-- footer-->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <!-- bloc coordonnées-->
+              <div class="col-md-5 col-sm-12 address">
+                <p>Adresse</P>
+                  <p>84 Rue du Général De Gaulle 60150 Thourotte</p>
+                  <br/>
+                  <p>Tél : 03 44 84 12 78</p>
+                  <p>Fax : 03 44 84 14 76</p>
+                </div>
+                <!-- bloc logo central-->
+                <div class="col-md-2 col-sm-12 image">
+                  <img src="Assets/images/icone_instagram.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <!-- bloc dates et Horaires-->
+                <div class="col-md-5 col-sm-12 hoursDates">
+                  <p>Horaires</P>
+                    <p>Le lundi</p>
+                    <p>de 14h à 19h15</p>
+                    <br/>
+                    <p>Du mardi au samedi</p>
+                    <p>de 8h45 à 19h15</p>
+                    <br/>
+                    <p>Le dimanche</p>
+                    <p>de 9h à 12h30</p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <!--script-->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            </html>
